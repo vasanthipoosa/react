@@ -1,20 +1,15 @@
-import React from 'react'
-import Outcome from './Outcome'
+import React, { Component } from 'react'
+import Function from './Function'
 
 
-
-
-const App=()=> {
- 
-
-return (
-<div>
- <Outcome/>
- 
-
- 
-
-</div>
-)
+ class App extends Component {
+  render() {
+    return (
+      <div>
+          
+          <Function/>
+      </div>
+    )
+  }
 }
-export default App
+export default  App
